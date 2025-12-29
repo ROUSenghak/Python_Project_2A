@@ -3,8 +3,15 @@ import pandas as pd
 import joblib
 from scripts.app_function import calendar_features
 from datetime import date
+from pathlib import Path  
 
-model = joblib.load("/home/onyxia/work/Python_Project_2A/joblib/ridge_pipeline.joblib")
+
+DIRECTORY = Path(__file__).resolve().parent
+
+MODEL_PATH = DIRECTORY / "joblib" / "ridge_pipeline.joblib"
+
+model = joblib.load(MODEL_PATH)
+
 NUM_FEATURES = [
     "QV2M",
     "CLRSKY_SFC_SW_DWN",
