@@ -19,8 +19,19 @@ Données de consommation d'électricité : https://www.rte-france.com/donnees-pu
 Données météorologiques extraites grâce à l'API NASA : https://www.rte-france.com/donnees-publications/eco2mix-donnees-temps-reel/telecharger-indicateurs
 
 
-# Structure et navigation du projet : 
-Il suffit d'exécuter successivement les cellules du notebook analysis_visualization.ipynb
+# Reproduction du projet : 
+Les données brutes sont déjà inclues dans le dépôt, donc un clonage suffit, aucun téléchargement manuel n'est requis.
 
+Pour cloner le projet : 
+git clone https://github.com/ROUSenghak/Python_Project_2A.git
 
+Pour se placer dans le dossier : 
+cd Python_Project_2A
+
+Pour installer les dépendances : Installer les dépendances
+pip install -r requirements.txt
+
+Ensuite, pour générer le jeu de données utilisé dans l'analyse, exécuter successivement les cellules du notebook 1_data_preparation.ipynb 
+
+Pour reproduire l'analyse, exécuter ensuite successivement les cellules du notebook analysis_visualization.ipynb
 
