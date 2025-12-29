@@ -14,6 +14,9 @@ Nous avons choisi, pour ce projet, de porter notre analyse sur la température e
 Régression linéaire, Régression Ridge, Arbre de décision
 
 # Données utilisées : 
+Données de consommation d'électricité : https://www.rte-france.com/donnees-publications/eco2mix-donnees-temps-reel/telecharger-indicateurs
+
+Données météorologiques extraites grâce à l'API NASA : https://www.rte-france.com/donnees-publications/eco2mix-donnees-temps-reel/telecharger-indicateurs
 
 
 # Structure et navigation du projet : 
