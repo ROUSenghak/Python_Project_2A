@@ -3,7 +3,7 @@
     Groupe : Rou Senghak, Turri Barthélemy, Ban Bunrong
 
 # Sujet : 
-Dans quelle mesure la température quotidienne influence-t-elle la consommation d’électricité en Île-de-France (ou dans d’autres régions)
+Dans quelle mesure la température quotidienne influence-t-elle la consommation d’électricité dans les régions françaises ?
 
 # Motivations : 
 La consommation d'électricité est un enjeu central des économies modernes, en cela qu'il reflète en partie l'activité des ménages, mais aussi celle de l'industrie et de l'économie en général. La consommation d'électricité est toutefois aussi liée à des enjeux de prévision énergétique et de stabilité du réseau. Dans un contexte de dérèglement climatique et d'une volatilité accrue du climat, comprendre les déterminants de la demande d'électricité est un enjeu de taille. 
