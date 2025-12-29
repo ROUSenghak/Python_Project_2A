@@ -17,7 +17,7 @@ Les modèles linéaires (OLS et Ridge) offrent clairement les meilleures perform
 # Données utilisées : 
 Données de consommation d'électricité : https://www.rte-france.com/donnees-publications/eco2mix-donnees-temps-reel/telecharger-indicateurs
 
-Données météorologiques extraites grâce à l'API NASA : https://www.rte-france.com/donnees-publications/eco2mix-donnees-temps-reel/telecharger-indicateurs
+Données météorologiques extraites grâce à l'API NASA : https://power.larc.nasa.gov/data-access-viewer/
 
 
 # Reproduction du projet : 
