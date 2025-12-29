@@ -65,11 +65,8 @@ with col_2:
         min_value=date(2020, 1, 1),
         max_value=date(2025, 12, 31),
     )
-
 month, is_weekend, saison = calendar_features(forecast_date)
-
 st.markdown("### 2. Meteorological variables")
-
 sub_col1, sub_col2 = st.columns(2)
 
 with sub_col1:
