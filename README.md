@@ -11,8 +11,9 @@ Nous avons choisi, pour ce projet, de porter notre analyse sur la température e
 
 
 # Modèles utilisés : 
-Régression linéaire, Régression Ridge, Arbre de décision
+Régression linéaire OLS, Régression Ridge, Arbre de décision
 
+Les modèles linéaires (OLS et Ridge) offrent clairement les meilleures performances avec un $R^2$ de $0,93$, tandis que l'arbre de décision affiche un $R^2$ de $0,7$.
 # Données utilisées : 
 Données de consommation d'électricité : https://www.rte-france.com/donnees-publications/eco2mix-donnees-temps-reel/telecharger-indicateurs
 
@@ -41,4 +42,7 @@ jupyter notebook
 Ensuite, pour générer le jeu de données utilisé dans l'analyse, exécuter successivement les cellules du notebook 1_data_preparation.ipynb 
 
 Pour reproduire l'analyse, exécuter ensuite successivement les cellules du notebook analysis_visualization.ipynb
+
+Pour lancer le streamlit : 
+streamlit run app_predict.py
 
